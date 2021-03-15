@@ -1,0 +1,13 @@
+export default {
+    purple: '#8A05BE',
+    yellow: '#FFC042',
+    yellowLow: '#FFF1D6',
+    white: '#fff',
+    green: '#00DA6D',
+
+    text: '#fff',
+    textTitle: '#4C4766',
+    textBase: '#6F6C80',
+    textComplement: '#BEBCCC',
+    textBlue: '#D4CCFF'
+}
