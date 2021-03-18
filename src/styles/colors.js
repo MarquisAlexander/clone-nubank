@@ -6,7 +6,7 @@ export default {
     green: '#00DA6D',
 
     text: '#fff',
-    textTitle: '#4C4766',
+    textTitle: '#848484',
     textBase: '#6F6C80',
     textComplement: '#BEBCCC',
     textBlue: '#D4CCFF'

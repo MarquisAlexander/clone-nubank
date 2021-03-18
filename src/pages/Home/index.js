@@ -13,12 +13,15 @@ function Home() {
                 <Text>Marquis</Text>
                 <BigCard
                     title={'Cartão de crédito'}
+                    description={'Fatura atual'}
                 />
                 <BigCard
                     title={'Conta'}
+                    description={'Saldo disponível'}
                 />
                 <BigCard
                     title={'Rewards'}
+                    description={'Apague compras com pontos que nunca expiram.'}
                 />
             </View>
         </ScrollView>

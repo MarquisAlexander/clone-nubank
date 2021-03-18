@@ -1,4 +1,5 @@
 import {Dimensions, StyleSheet} from 'react-native';
+import colors from '../../styles/colors';
 const {height, width} = Dimensions.get('window');
 
 export const styles = StyleSheet.create({
@@ -14,5 +15,16 @@ export const styles = StyleSheet.create({
     header: {
         flexDirection: 'row',
         alignItems: 'center',
-    }
+    },
+
+    textTitle: {
+        marginLeft: 10,
+        color: colors.textTitle,
+        fontSize: (width * 6) / 100,
+    },
+
+    textDescription: {
+        color: colors.textTitle,
+        fontSize: (width * 4) / 100,
+    },
 })
