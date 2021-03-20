@@ -1,5 +1,6 @@
 export default {
     purple: '#8A05BE',
+    purpleLight: '#9723CB',
     yellow: '#FFC042',
     yellowLow: '#FFF1D6',
     white: '#fff',

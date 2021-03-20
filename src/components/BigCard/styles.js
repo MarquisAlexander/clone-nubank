@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
         height: (height * 27) / 100,
         width: '100%',
         borderRadius: 3,
-        marginTop: 20,
+        marginBottom: 15,
         padding: 15,
     },
 
