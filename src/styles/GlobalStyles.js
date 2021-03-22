@@ -6,7 +6,7 @@ const GlobalStyles = StyleSheet.create({
     container: {
         backgroundColor: colors.purple,
         paddingHorizontal: 20,
-        flex: 1
+        flex: 1,
     }
 })
 

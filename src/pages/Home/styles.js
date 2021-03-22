@@ -27,12 +27,13 @@ const styles = StyleSheet.create({
 
     headerText: {
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
     },
 
     textTitle: {
         color: colors.text,
         fontSize: (width * 8) / 100,
+        fontFamily: 'Roboto-Bold'
     }
 });
 

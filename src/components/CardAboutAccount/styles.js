@@ -20,11 +20,21 @@ export const styles = StyleSheet.create({
     textTitle: {
         marginLeft: 10,
         color: colors.textTitle,
-        fontSize: (width * 6) / 100,
+        fontSize: (width * 5) / 100,
+        fontFamily: 'Roboto-Regular',
     },
 
     textDescription: {
         color: colors.textTitle,
         fontSize: (width * 4) / 100,
+        fontFamily: 'Roboto-Regular',
+        marginTop: (height * 3) / 100
+    },
+
+        textValue: {
+        marginTop: (height * 3) / 100,
+        fontSize: (width * 8) / 100,
+        color: colors.textBlack,
+        fontFamily: 'Roboto-Bold'
     },
 })
