@@ -13,7 +13,6 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [ReactNative](https://reactnative.dev/)
-- [styled-components](https://styled-components.com/)
 
 ## 🤔 Informações
 
