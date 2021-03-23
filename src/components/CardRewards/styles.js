@@ -34,7 +34,7 @@ export const styles = StyleSheet.create({
     },
 
     textDescription: {
-        color: colors.textTitle,
+        color: colors.textBlack,
         fontSize: (width * 4) / 100,
         fontFamily: 'Roboto-Regular',
         marginTop: (height * 3) / 100

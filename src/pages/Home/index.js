@@ -19,7 +19,13 @@ const data = {
     {"title": "Indicar amigos",
      "icon": "user-plus"},
     {"title": "Transferir", 
-     "icon": "repeat"}
+     "icon": "repeat"},
+     {"title": "Recarga de  celular", 
+     "icon": "smartphone"},
+     {"title": "Ajustar limite", 
+     "icon": "sliders"},
+     {"title": "Bloquear cartão", 
+     "icon": "lock"}
     ]}
 
 function Home() {
