@@ -10,7 +10,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between',
         backgroundColor: colors.purple,
-
     },
 
     headerIcons: {

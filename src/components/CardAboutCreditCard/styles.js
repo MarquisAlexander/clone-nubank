@@ -20,8 +20,8 @@ export const styles = StyleSheet.create({
     textTitle: {
         marginLeft: 15,
         color: colors.textTitle,
-        fontSize: (width * 5) / 100,
-        fontFamily: 'Roboto-Regular',
+        fontSize: (width * 4.5) / 100,
+        fontFamily: 'Roboto-Light',
     },
 
     textDescription: {

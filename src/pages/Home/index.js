@@ -28,7 +28,7 @@ const data = {
      "icon": "lock"}
     ]}
 
-function Home() {
+function Home({navigation}) {
 
     console.log(data.info);
     return (
@@ -42,7 +42,9 @@ function Home() {
                     <TouchableOpacity>
                     <Icon name="eye-off" size={24} color="#fff" style={styles.icon}/>
                     </TouchableOpacity>
-                    <TouchableOpacity>
+                    <TouchableOpacity 
+                        onPress={() => navigation.navigate('Profile')}
+                    >
                     <Icon name="settings" size={24} color="#fff" style={styles.icon} />
                     </TouchableOpacity>
                 </View>
