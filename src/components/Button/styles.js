@@ -10,6 +10,7 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 10,
         paddingVertical: 25,
         borderTopWidth: 1,
+        borderColor: '#fff',
         flexDirection: 'row'
     },
 })

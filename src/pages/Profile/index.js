@@ -19,6 +19,12 @@ function Profile({navigation}) {
                 </TouchableOpacity>
             </View>
 
+            <View style={styles.BoxQrCode}>
+                <View style={styles.QrCode}>
+
+                </View>
+            </View>
+
             <Button />
             <Button />
             <Button />

@@ -26,6 +26,16 @@ const styles = StyleSheet.create({
         marginLeft: 10,
         borderRadius: 50,
     },
+
+    BoxQrCode: {
+        alignItems: 'center',
+    },
+
+    QrCode: {
+        backgroundColor: '#fff',
+        height: (height * 20) / 100,
+        width: (width * 40) / 100,
+    }
 })
 
 export default styles;
