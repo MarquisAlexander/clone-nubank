@@ -12,12 +12,12 @@ export function CardAboutCreditCard({title, description, icon, value}) {
                 <Icon name={icon} size={24} color={colors.icon} />
                 <Text style={styles.textTitle}>{title}</Text>
             </View>
-                <Text style={styles.textDescription}>{description}</Text>
-                <Text style={styles.textValue}>R$ {value}</Text>
-                <View style={styles.header}>
-                    <Text style={styles.textInfo}>Limite disponível: </Text>
-                    <Text style={styles.textInfoValue}>R$ 39,20</Text>
-                </View>
+            <Text style={styles.textDescription}>{description}</Text>
+            <Text style={styles.textValue}>R$ {value}</Text>
+            <View style={styles.header}>
+                <Text style={styles.textInfo}>Limite disponível: </Text>
+                <Text style={styles.textInfoValue}>R$ 39,20</Text>
+            </View>
         </View>
     )
 }

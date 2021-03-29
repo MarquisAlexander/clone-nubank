@@ -43,6 +43,7 @@ function Profile({navigation}) {
             <Button
                 icon={'aperture'}
                 title={'Minhas chavex Pix'}
+                nameScreen={'MyKeysPix'}
             />
             <Button
                 icon={'credit-card'}

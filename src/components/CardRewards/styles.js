@@ -5,12 +5,11 @@ const {height, width} = Dimensions.get('window');
 export const styles = StyleSheet.create({
     container: {
         backgroundColor: '#fff',
-        height: (height * 27) / 100,
+        // height: (height * 30) / 100,
         width: '100%',
         borderRadius: 3,
         marginBottom: 15,
         padding: 15,
-
         justifyContent: 'space-between'
     },
 
@@ -52,16 +51,13 @@ export const styles = StyleSheet.create({
         borderColor: colors.purple,
         borderWidth: 1,
         borderRadius: 5,
-
         padding: 15,
-
-        maxWidth: 100,
-
-        // marginTop: (height * 3) / 100
+        maxWidth: '40%',
     },
 
     textButton: {
         color: colors.purple,
-        fontFamily: 'Roboto-Bold'
+        fontFamily: 'Roboto-Bold',
+        textAlign: 'center'
     }
 })

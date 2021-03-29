@@ -34,8 +34,8 @@ const styles = StyleSheet.create({
 
     QrCode: {
         backgroundColor: '#fff',
-        height: (height * 20) / 100,
-        width: (width * 40) / 100,
+        height: 180,
+        width: 180,
         borderRadius: 5,
     },
 

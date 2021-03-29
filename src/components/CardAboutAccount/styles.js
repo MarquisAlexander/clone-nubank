@@ -5,11 +5,12 @@ const {height, width} = Dimensions.get('window');
 export const styles = StyleSheet.create({
     container: {
         backgroundColor: '#fff',
-        height: (height * 25) / 100,
+        // height: (height * 25) / 100,
         width: '100%',
         borderRadius: 3,
         marginBottom: 15,
         padding: 15,
+        justifyContent: 'space-between',
     },
 
     header: {
