@@ -4,13 +4,28 @@ const {height, width} = Dimensions.get('window');
 
 export const styles = StyleSheet.create({
     container: {
-        alignItems: 'center',
-        height: (height * 4) / 100,
+        flexDirection: 'row',
         width: '100%',
-        paddingHorizontal: 10,
-        paddingVertical: 25,
         borderTopWidth: 1,
+        // borderBottomWidth: 1,
         borderColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        paddingHorizontal: 20,
+    },
+
+    contente: {
+        alignItems: 'center',
+        height: (height * 9) / 100,
+        // paddingHorizontal: 10,
+        // paddingVertical: 25,
         flexDirection: 'row'
     },
+
+    textTitle: {
+        color: colors.text,
+        marginLeft: 20,
+        fontFamily: 'Roboto-Regular',
+        fontSize: (height * 2) / 100,
+    }
 })

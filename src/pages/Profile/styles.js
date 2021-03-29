@@ -29,12 +29,41 @@ const styles = StyleSheet.create({
 
     BoxQrCode: {
         alignItems: 'center',
+        marginTop: (height * 5) / 100,
     },
 
     QrCode: {
         backgroundColor: '#fff',
         height: (height * 20) / 100,
         width: (width * 40) / 100,
+        borderRadius: 5,
+    },
+
+    textInfoAcc: {
+        maxWidth: 250,
+        marginVertical: 20,
+        fontSize: (width * 4) / 100,
+        color: colors.text,
+        fontFamily: 'Roboto-Regular',
+        fontSize: (height * 2.5) / 100,
+        textAlign: "center",
+    },
+
+    button: {
+        borderWidth: 1,
+        borderColor: colors.text,
+        borderRadius: 5,
+        width: '100%',
+        height: 50,
+        marginBottom: 20,
+
+        justifyContent: 'center',
+    },
+    
+    textButton: {
+        textAlign: "center",
+        color: colors.text,
+        fontFamily: 'Roboto-Bold',
     }
 })
 
