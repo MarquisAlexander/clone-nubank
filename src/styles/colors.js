@@ -3,7 +3,7 @@ export default {
     purpleLight: '#9723CB',
     yellow: '#FFC042',
     yellowLow: '#FFF1D6',
-    white: '#fff',
+    white: '#FFF',
     green: '#217B55',
 
     text: '#fff',

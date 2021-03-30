@@ -47,6 +47,7 @@ export const styles = StyleSheet.create({
     },
 
     containerButton: {
+        marginTop: 20,
         borderStyle: 'solid' ,
         borderColor: colors.purple,
         borderWidth: 1,
