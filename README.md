@@ -16,11 +16,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🤔 Informações
 
-Esse é um pequeno projeto que foi desenvolvido com o intuito de aprimorar os conhecimentos sobre o desenvolvimento de aplicações simples com react native.
+Esse é um pequeno projeto que foi desenvolvido com o intuito de aprimorar os conhecimentos sobre o desenvolvimento de aplicações com react native utilizando fontes personalizadas, ícones personalizados e o Dimensions do react native para deixar a aplicação ainda mais responsiva, essa aplicação é o clone do famoso app nuBank.
 
 ## 🖼 Layout
 <p align="center">
-<img src="https://user-images.githubusercontent.com/51330232/112233737-b2658200-8c19-11eb-90b1-9eec67dc05d8.jpg">
+<img src="https://user-images.githubusercontent.com/51330232/113130599-a027ad00-91f2-11eb-82de-146309b7ea75.png">
 </p>
 
 ### :muscle: Quem deu aquela força para não desistir?
