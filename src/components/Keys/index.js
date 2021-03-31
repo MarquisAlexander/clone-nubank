@@ -4,14 +4,14 @@ import Icon from 'react-native-vector-icons/Feather'
 
 import styles from './styles';
 
-function Keys() {
+export function Keys({icon, TypeKey, Key}) {
     return (
         <TouchableOpacity style={styles.container}>
             <View style={styles.content}>
-                <Icon name='shield' size={24} color='#000' />
-                <View>
-                    <Text>Chave aleatória</Text>
-                    <Text>64565754565645654745635</Text>
+                <Icon name={icon} size={24} color='#000' />
+                <View style={{marginLeft: 20,}}>
+                    <Text style={styles.textNameKey}>{TypeKey}</Text>
+                    <Text style={styles.textKey}>{Key}</Text>
                 </View>
             </View>
             <Icon name='more-vertical' size={24} color='#000' />
@@ -19,4 +19,4 @@ function Keys() {
     )
 }
 
-export default Keys;
+// export default Keys;

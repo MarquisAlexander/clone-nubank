@@ -29,24 +29,24 @@ const styles = StyleSheet.create({
 
     BoxQrCode: {
         alignItems: 'center',
-        marginTop: (height * 5) / 100,
+        marginTop: (height * 8) / 100,
     },
 
     QrCode: {
         backgroundColor: '#fff',
-        height: 180,
-        width: 180,
+        height: 150,
+        width: 150,
         borderRadius: 5,
     },
 
     textInfoAcc: {
         maxWidth: 250,
-        marginVertical: 20,
-        fontSize: (width * 4) / 100,
+        marginVertical: 30,
         color: colors.text,
         fontFamily: 'Roboto-Regular',
-        fontSize: (height * 2.5) / 100,
+        fontSize: (height * 2) / 100,
         textAlign: "center",
+        marginBottom: 40,
     },
 
     button: {

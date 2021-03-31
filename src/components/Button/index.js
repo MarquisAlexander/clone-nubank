@@ -19,7 +19,7 @@ export function Button({title, description, icon, value, onPress, nameScreen}) {
                 <Icon name={icon} size={24} color="#fff" />
                 <Text style={styles.textTitle}>{title}</Text>
             </View>
-            <Icon name="chevron-right" size={24} color="#fff" />
+            <Icon name="chevron-right" size={20} color="#fff" />
 
         </TouchableOpacity>
     )
